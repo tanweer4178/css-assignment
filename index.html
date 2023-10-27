@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <style>
+        .internal{
+            position: relative;
+            background-color: rgb(18, 102, 102);
+            padding-bottom:  50px;
+            color: aqua;
+            text-transform: capitalize;
+            font-weight: 250;
+            justify-content: center; 
+            margin-top: 10px;
+            padding-left: 25px;
+            
+        }
+        .internal h2{
+            color:rgb(235, 144, 32) ;
+            text-transform: uppercase;
+            
+        }
+        .internal span {
+            padding-bottom:  20px;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <!-- inline css -->
+    <div class="inline" style="background-color: aqua; padding-left:25px; text-transform: capitalize; font-weight: 200; ">
+        <h2 style="color: rgb(235, 144, 32);">INLINE CSS</h2>
+        <span>An inline style may be used to apply a unique style for a single element.<br></span><br>to used inline css styles, add the style attribute to the relevent element.<br> the style attribute can contain any css property
+    </div>
+    <!-- internal css -->
+    <div class="internal">
+        <h2>internal css</h2>
+        <span>An internal css style sheet may be used if one single Html page hsd unique style.<br>the internal style is define inside the &#60;style&#62; element,inside the head section</span>
+
+    </div>
+    <!--  external css -->
+    <div class="external">
+        <h2>external css</h2>
+        <span>With an external style sheet, you can change the look of an entire website by changing just one file!<br>
+
+           <br> Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</span>
+    </div>
+</body>
+</html>
